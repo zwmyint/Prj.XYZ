@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    internal class EOrderSolution
+    public class Solution
     {
+        public List<EOrderAppointment> Appointments { get; set; }
     }
 }

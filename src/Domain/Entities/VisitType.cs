@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    internal class VisitType
+    public class VisitType
     {
+        public string Name { get; set; }
+        public bool IsPanel { get; set; }
+        public Id[] IDs { get; set; }
     }
 }

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    internal class Phone
+    public class Phone
     {
+        public string Number { get; set; }
+        public string Type { get; set; }
     }
 }

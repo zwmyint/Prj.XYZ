@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    internal class AutoSchedulerSolution
+    public class AutoSchedulerSolution
     {
+        public List<VisitSolution> VisitSolutions { get; set; }
     }
 }

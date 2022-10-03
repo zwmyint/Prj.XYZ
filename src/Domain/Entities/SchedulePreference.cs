@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    internal class SchedulePreference
+    public class SchedulePreference
     {
+        public List<Times> Times { get; set; }
     }
 }

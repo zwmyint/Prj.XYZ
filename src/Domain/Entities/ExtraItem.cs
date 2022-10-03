@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    internal class ExtraItem
+    public class ExtraItem
     {
+        public string ItemNumber { get; set; }
+        public object Value { get; set; }
+        public Line[] Lines { get; set; }
     }
 }

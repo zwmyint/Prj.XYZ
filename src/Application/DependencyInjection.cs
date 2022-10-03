@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Entities
+namespace Application
 {
-    public class DepartmentId
+    internal class DependencyInjection
     {
-        public string ID { get; set; }
-        public string Type { get; set; }
     }
 }

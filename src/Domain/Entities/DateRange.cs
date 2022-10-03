@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    internal class DateRange
+    public class DateRange
     {
+        public string StartDate { get; set; }
+        public string EndDate { get; set; }
     }
 }

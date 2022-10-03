@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    internal class VisitsToSearch
+    public class VisitsToSearch
     {
+        public string VisitTypeID { get; set; }
+        public string VisitTypeIDType { get; set; }
+        public Department[] Departments { get; set; }
+        public Id[] Orders { get; set; }
+        public List<SchedulePreference> SchedulePreferences { get; set; }
+        public List<DateRange> DateRanges { get; set; }
     }
 }

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    internal class Schedulewarning
+    public class ScheduleWarning
     {
+        public int WarningCode { get; set; }
+        public string[] WarningText { get; set; }
     }
 }

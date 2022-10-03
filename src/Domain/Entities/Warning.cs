@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    internal class Warning
+    public class Warning
     {
+        public int WarningCode { get; set; }
+        public string[] WarningText { get; set; }
     }
 }

@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    internal class Provider
+    public class Provider
     {
+        public string ProviderName { get; set; }
+        public string DepartmentName { get; set; }
+        public string Time { get; set; }
+        public string Duration { get; set; }
+        public ProviderId[] ProviderIDs { get; set; }
+        public DepartmentId[] DepartmentIDs { get; set; }
+        public string[] Blocks { get; set; }
     }
 }

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    internal class Times
+    public class Times
     {
+        public string EndTime { get; set; }
+        public string StartTime { get; set; }
     }
 }

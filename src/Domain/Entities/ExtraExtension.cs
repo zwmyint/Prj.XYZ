@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    internal class ExtraExtension
+    public class ExtraExtension
     {
+        public string ExtensionName { get; set; }
+        public string Value { get; set; }
+        public ExtensionId[] ExtensionIDs { get; set; }
+        public object Lines { get; set; }
     }
 }
